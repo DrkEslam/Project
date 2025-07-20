@@ -25,7 +25,7 @@ const Contact = () => {
     const form = e.target as HTMLFormElement;
     const formDataToSend = new FormData(form);
     
-    fetch('https://formspree.io/f/xpwzgqko', {
+    fetch('https://formspree.io/f/xldlgbyp', {
       method: 'POST',
       body: formDataToSend,
       headers: {
@@ -236,7 +236,7 @@ const Contact = () => {
               
               <motion.form 
                 onSubmit={handleSubmit}
-                action="https://formspree.io/f/xpwzgqko"
+                action="https://formspree.io/f/xldlgbyp"
                 method="POST"
                 className="space-y-6"
                 initial={{ opacity: 0, y: 20 }}
