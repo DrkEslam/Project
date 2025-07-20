@@ -66,7 +66,7 @@ const Contact = () => {
     {
       icon: <MapPin className="text-purple-600" size={24} />,
       label: "Location",
-      value: "New York, NY",
+      value: "Cairo, EG",
       link: null
     }
   ];
