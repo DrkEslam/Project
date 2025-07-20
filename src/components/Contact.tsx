@@ -20,15 +20,33 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I\'ll get back to you within 24 hours.');
-    setFormData({
-      name: '',
-      email: '',
-      company: '',
-      budget: '',
-      message: ''
+    
+    // Submit to Formspree
+    const form = e.target as HTMLFormElement;
+    const formDataToSend = new FormData(form);
+    
+    fetch('https://formspree.io/f/xpwzgqko', {
+      method: 'POST',
+      body: formDataToSend,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        alert('شكرًا لك! تم استلام طلبك بنجاح وسنتواصل معك في أقرب وقت ممكن.\n\nThank you! We have received your request successfully and will contact you as soon as possible.');
+        setFormData({
+          name: '',
+          email: '',
+          company: '',
+          budget: '',
+          message: ''
+        });
+      } else {
+        alert('عذرًا، حدث خطأ في الإرسال. يرجى المحاولة مرة أخرى.\n\nSorry, there was an error sending your message. Please try again.');
+      }
+    }).catch(error => {
+      console.error('Error:', error);
+      alert('عذرًا، حدث خطأ في الإرسال. يرجى المحاولة مرة أخرى.\n\nSorry, there was an error sending your message. Please try again.');
     });
   };
 
@@ -217,7 +235,9 @@ const Contact = () => {
               </motion.h3>
               
               <motion.form 
-                onSubmit={handleSubmit} 
+                onSubmit={handleSubmit}
+                action="https://formspree.io/f/xpwzgqko"
+                method="POST"
                 className="space-y-6"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
