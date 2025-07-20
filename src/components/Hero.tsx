@@ -18,7 +18,7 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <img
-              src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+              src="https://cdn.discordapp.com/attachments/1036260892989456506/1396399038303047680/1752996977298-modified.png?ex=687df172&is=687c9ff2&hm=2c096938c483aadf062a36d46dfc794fbfc0b3c533c94ac99682a31da1c3719e&"
               alt="Eslam Hesham"
               className="w-32 h-32 rounded-full mx-auto mb-6 shadow-lg object-cover"
             />
