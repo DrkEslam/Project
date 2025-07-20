@@ -11,7 +11,7 @@ const About = () => {
     },
     {
       icon: <Users className="text-green-600" size={24} />,
-      title: "50+ Clients Served",
+      title: "350+ Clients Served",
       description: "From startups to Fortune 500 companies"
     },
     {
