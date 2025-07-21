@@ -30,7 +30,7 @@ const Testimonials = () => {
     },
     {
       name: "نورهان صلاح",
-      role: "مديرة التسويق، سوق.كوم",
+      role: "مديرة التسويق، نون",
       company: "E-commerce",
       image: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
       quote: "التعامل مع إسلام كان قرار صحيح جداً. خبرته في الإعلانات الرقمية واضحة من أول يوم. ساعدنا نحسن من أداء الحملات بشكل كبير وزود معدل التحويل. شخص يعتمد عليه ومتخصص في شغله.",
