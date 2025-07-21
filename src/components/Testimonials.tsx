@@ -6,7 +6,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "أحمد محمود",
-      role: "ميسو",
+      role: "مدير التسويق، كريم",
       company: "E-commerce",
       image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
       quote: "إسلام ساعدنا نوصل لجمهور أوسع وأكثر تفاعلاً. الحملات اللي عملها كانت مدروسة جداً وحققت نتائج ممتازة في زيادة المبيعات والوعي بالبراند. شخص محترف ومتفهم للسوق المصري كويس جداً.",
