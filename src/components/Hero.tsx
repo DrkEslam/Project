@@ -72,7 +72,7 @@ const Hero = () => {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <Target className="text-purple-600" size={20} />
-              <span className="font-semibold">200+ Campaigns</span>
+              <span className="font-semibold">+1000 Campaigns</span>
             </motion.div>
           </motion.div>
 
