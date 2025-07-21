@@ -1,22 +1,22 @@
 import React from 'react';
-import { Mail, Phone, Linkedin, Twitter, Facebook } from 'lucide-react';
+import { Mail, Phone, Linkedin, Twitter, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const socialLinks = [
     {
       icon: <Linkedin size={20} />,
-      href: "https://linkedin.com/in/eslamhesham",
+      href: "https://linkedin.com/in/Eslam_Hesham01",
       label: "LinkedIn"
     },
     {
-      icon: <Twitter size={20} />,
-      href: "https://twitter.com/eslamhesham",
-      label: "Twitter"
+      icon: <Instagram size={20} />,
+      href: "https://instagram.com/Eslam_Hesham01",
+      label: "Instagram"
     },
     {
-      icon: <Facebook size={20} />,
-      href: "https://facebook.com/eslamhesham",
-      label: "Facebook"
+      icon: <Twitter size={20} />,
+      href: "https://twitter.com/Eslam_Hesham01",
+      label: "Twitter"
     }
   ];
 
