@@ -5,35 +5,35 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CEO, StyleHub Fashion",
+      name: "أحمد محمود",
+      role: "مدير التسويق، جوميا مصر",
       company: "E-commerce",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      quote: "Eslam transformed our advertising strategy and helped us scale from $10K to $100K monthly revenue. The ROI was incredible - we saw a 520% return on our ad spend. Highly recommended!",
-      rating: 5
-    },
-    {
-      name: "Michael Chen",
-      role: "Marketing Director, TechFlow Solutions",
-      company: "SaaS",
       image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      quote: "Working with Eslam was a game-changer for our lead generation. The quality of leads improved dramatically, and our customer acquisition cost dropped by 40%. Professional and results-driven.",
+      quote: "إسلام ساعدنا نوصل لجمهور أوسع وأكثر تفاعلاً. الحملات اللي عملها كانت مدروسة جداً وحققت نتائج ممتازة في زيادة المبيعات والوعي بالبراند. شخص محترف ومتفهم للسوق المصري كويس جداً.",
       rating: 5
     },
     {
-      name: "Emily Rodriguez",
-      role: "Founder, FitTrack App",
-      company: "Mobile App",
-      image: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      quote: "Eslam's expertise in mobile app marketing is outstanding. We acquired over 100K high-value users with excellent retention rates. The campaign performance exceeded all our expectations.",
+      name: "مريم عبد الرحمن",
+      role: "مؤسسة، فاشن بوتيك",
+      company: "Fashion",
+      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      quote: "تعاملي مع إسلام كان تجربة رائعة. فهم طبيعة البراند بتاعي وعرف يوصل الرسالة للعملاء المناسبين. الحملات كانت إبداعية وحققت تفاعل عالي جداً. أنصح أي حد عايز يطور أعماله يتعامل معاه.",
       rating: 5
     },
     {
-      name: "David Thompson",
-      role: "CMO, GreenLeaf Organics",
-      company: "E-commerce",
+      name: "كريم حسام",
+      role: "مدير العمليات، طلبات",
+      company: "Food Delivery",
       image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      quote: "The attention to detail and strategic approach Eslam brings is impressive. Our ROAS improved from 2.1x to 4.8x within 6 months. Couldn't be happier with the results.",
+      quote: "إسلام عنده فهم عميق لسلوك المستهلك المصري. الاستراتيجيات اللي وضعها ساعدتنا نوصل لعملاء جدد في مناطق مختلفة. شغله منظم ومتابعته مستمرة، وده اللي خلى النتائج تظهر بسرعة.",
+      rating: 5
+    },
+    {
+      name: "نورهان صلاح",
+      role: "مديرة التسويق، سوق.كوم",
+      company: "E-commerce",
+      image: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      quote: "التعامل مع إسلام كان قرار صحيح جداً. خبرته في الإعلانات الرقمية واضحة من أول يوم. ساعدنا نحسن من أداء الحملات بشكل كبير وزود معدل التحويل. شخص يعتمد عليه ومتخصص في شغله.",
       rating: 5
     }
   ];
